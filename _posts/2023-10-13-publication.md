@@ -1,10 +1,10 @@
 ---
-layout: page
-order: 2
-title: News
+layout: post
+order: 3
+title: Publication
 ---
 
-<div id="news"></div>
+<div id="publication"></div>
 <h1>{{ page.title }}</h1>
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
