@@ -1,2 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); // 这是一个例子，确保使用你自己的 URL
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Kalam-Regular';
+    src: url('fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kalam-Bold';
+    src: url('fonts/Kalam/Kalam-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playpen-Regular';
+    src: url('fonts/Playpen/PlaypenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playpen-Thin';
+    src: url('fonts/Playpen/PlaypenSans-Thin.ttf') format('truetype');
+}
