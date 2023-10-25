@@ -5,7 +5,7 @@ title: Publication
 ---
 
 <div id="publication"></div>
-<h1>{{ page.title }}</h1>
+<h2>{{ page.title }}</h2>
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
