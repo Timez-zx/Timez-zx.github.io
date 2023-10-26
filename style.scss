@@ -8,6 +8,10 @@
 @import "reset";
 @import "variables";
 @import "fonts";
+@import "publication";
+@import "news";
+@import "about";
+@import "intro";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -46,7 +50,6 @@ h1, h2 {
 }
 
 
-
 h1 {
   font-size: 30px;
   font-weight: bold;
@@ -63,16 +66,6 @@ h3 {
   font-size: 15px;
   font-weight: 400;
   color: $sdarkGray;
-}
-
-h4 {
-  font-family: Helvetica;
-  font-size: 16px;
-  font-weight: 300;
-  color: $sdarkGray;
-  letter-spacing: 0px;
-  word-spacing: 3px;
-  margin-bottom: 15px;
 }
 
 
@@ -189,23 +182,6 @@ img {
   }
 }
 
-// .site-avatar {
-//   float: left;
-//   width: 70px;
-//   height: 70px;
-//   margin-right: 15px;
-
-//   @include mobile {
-//     float: none;
-//     display: block;
-//     margin: 0 auto;
-//   }
-
-//   img {
-//     border-radius: 5px;
-//   }
-// }
-
 .site-info {
   float: left;
 
@@ -253,21 +229,6 @@ img {
   50% { border-color: black; }
 }
 
-.site-description {
-  font-family: 'Courier New', monospace;
-  font-weight: 500;
-  overflow: hidden;
-  border-right: .15em solid black;
-  font-size: 30px;
-  white-space: pre;
-  margin: auto;
-  letter-spacing: .15em;
-  max-width: 20em; 
-  animation:
-    typing 5s steps(30, start) infinite,
-    blink .75s step-end infinite;
-}
-
 
 nav {
   float: right;
@@ -300,132 +261,6 @@ nav {
   }
 }
 
-//
-// .main
-//
-.introduction-section {
-  position: relative;
-  text-align: center;
-  padding: 20px 10px; // 根据需要调整
-  margin: 40px 0; // 根据需要调整
-}
-
-.intro-background {
-  font-family: 'Kalam-Bold', cursive; // 使用艺术字体
-  font-size: 155px; // 大号字体大小
-  opacity: 0.06; // 使字体稍微透明，以便看到下面的内容
-  position: absolute;
-  top: 10;
-  left: 0;
-  // right: 0;
-  // bottom: 0;
-  max-width: 850;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: -1; // 确保背景在内容之下
-}
-
-.intro-content {
-  z-index: 100; // 确保内容在背景之上
-  position: relative;
-}
-
-.justify-text {
-  text-align: justify;
-}
-
-.time-container {
-  width: 80px;  /* 调整宽度以适应你的需要 */
-  display: inline-block;
-}
-
-/* 事件容器样式 */
-.event-container {
-  display: inline-block;
-}
-
-.time {
-  font-style: italic;
-  color: $smallGray;
-  font-size: 16px;
-}
-
-/* 更新事件的样式 */
-.event {
-  padding-left: 2em;  /* 用于创建tab效果 */
-  font-weight: 200;
-  font-size: 16px;
-  word-spacing: 3px;
-}
-
-/* 更新每个项目的样式 */
-.news-item {
-  text-align: left;  /* 左对齐 */
-  padding-left: 1em;  /* 创建一个制表符空间 */
-  margin-bottom: -8px;  /* 项目之间的间距 */
-}
-
-.publish-item {
-  display: flex;
-  margin-bottom: 20px;  /* 添加间距，以便分隔每个出版物项 */
-}
-
-/* 定义图像列的样式 */
-
-.image-column {
-  flex: 1;
-  margin-right: 0px;  /* 添加间距，在图像和文本之间创建空间 */
-  border: 0px solid white; /* 为容器添加黑色边框 */
-  width: 100%; /* 设置容器的宽度 */
-  box-sizing: border-box; /* 确保边框包括在总宽度和高度中 */
-  margin-left: auto;
-  display: flex;  /* 将image-column设置为flex容器 */
-  justify-content: flex-end;  /* 使图像靠右对齐 */
-}
-
-.image-column img {
-  width: auto; /* 让图像填充容器 */
-  height: 135px; /* 保持图像的原始纵横比 */
-}
-
-/* 定义文本列的样式 */
-.text-column {
-  flex: 1.4;
-  // width: 600px;
-  padding-left: 1em;
-  font-size: 16px;
-  padding-right: 1em;
-}
-
-.author_stress {
-  font-style: italic;
-  font-weight: 400;
-}
-
-.author {
-  font-weight: 200;
-  font-size: 15px;
-  word-spacing: 3px;
-  line-height: 24px;
-}
-
-.pub_event {
-  font-weight: 400;
-  font-size: 15px;
-  word-spacing: 3px;
-  line-height: 24px;
-}
-
-/* 定义出版物标题的样式 */
-.publish-title {
-  font-weight: bold;
-  margin-bottom: 0px;  /* 添加间距，将标题和作者分隔开 */
-  line-height: 25px;
-  word-spacing: 4px;
-}
 
 
 .posts > .post {

@@ -1,0 +1,30 @@
+.time-container {
+    width: 80px;  /* 调整宽度以适应你的需要 */
+    display: inline-block;
+  }
+  
+  /* 事件容器样式 */
+  .event-container {
+    display: inline-block;
+  }
+  
+  .time {
+    font-style: italic;
+    color: $smallGray;
+    font-size: 16px;
+  }
+  
+  /* 更新事件的样式 */
+  .event {
+    padding-left: 2em;  /* 用于创建tab效果 */
+    font-weight: 200;
+    font-size: 16px;
+    word-spacing: 3px;
+  }
+  
+  /* 更新每个项目的样式 */
+  .news-item {
+    text-align: left;  /* 左对齐 */
+    padding-left: 1em;  /* 创建一个制表符空间 */
+    margin-bottom: -8px;  /* 项目之间的间距 */
+  }

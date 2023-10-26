@@ -1,0 +1,59 @@
+.publish-item {
+    display: flex;
+    margin-bottom: 20px;  /* 添加间距，以便分隔每个出版物项 */
+  }
+  
+  /* 定义图像列的样式 */
+  
+  .image-column {
+    flex: 1;
+    margin-right: 0px;  /* 添加间距，在图像和文本之间创建空间 */
+    border: 0px solid white; /* 为容器添加黑色边框 */
+    width: 100%; /* 设置容器的宽度 */
+    box-sizing: border-box; /* 确保边框包括在总宽度和高度中 */
+    margin-left: auto;
+    display: flex;  /* 将image-column设置为flex容器 */
+    justify-content: flex-end;  /* 使图像靠右对齐 */
+  }
+  
+  .image-column img {
+    width: auto; /* 让图像填充容器 */
+    height: 135px; /* 保持图像的原始纵横比 */
+  }
+  
+  /* 定义文本列的样式 */
+  .text-column {
+    flex: 1.4;
+    // width: 600px;
+    padding-left: 1em;
+    font-size: 16px;
+    padding-right: 1em;
+  }
+  
+  .author_stress {
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .author {
+    font-weight: 200;
+    font-size: 15px;
+    word-spacing: 3px;
+    line-height: 24px;
+  }
+  
+  .pub_event {
+    font-weight: 400;
+    font-size: 15px;
+    word-spacing: 3px;
+    line-height: 24px;
+  }
+  
+  /* 定义出版物标题的样式 */
+  .publish-title {
+    font-weight: bold;
+    margin-bottom: 0px;  /* 添加间距，将标题和作者分隔开 */
+    line-height: 25px;
+    word-spacing: 4px;
+  }
+  
