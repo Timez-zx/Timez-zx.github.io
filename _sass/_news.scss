@@ -28,6 +28,7 @@
     word-spacing: 3px;
     @include mobile {
       font-size: 13px;
+      line-height: 0.5;
     }
   }
   
@@ -37,7 +38,7 @@
     padding-left: 1em;  /* 创建一个制表符空间 */
     margin-bottom: -8px;  /* 项目之间的间距 */
     @include mobile {
-      line-height: -8px;
+      margin-bottom: 5px;
     }
   }
 
