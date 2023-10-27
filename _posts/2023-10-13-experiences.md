@@ -1,13 +1,26 @@
 ---
 layout: post
 order: 4
-title: Experience
+title: Research experience (See <a href="files/cv.pdf">details</a>)
 ---
 
 <div id="experience"></div>
 <h2>{{ page.title }}</h2>
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+<div class="experience-item">
+    <div class="timeSpan-container">
+        <span class="timeSpan">Jul. 2023 - Present</span>
+    </div>
+    <div class="eventSpan-container">
+        <span class="eventSpan">As a visiting student in <a href="https://vincen.tl">Prof. Vincent Liu</a> 's group mainly for project Beaver</span>
+    </div>
+</div>
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+<div class="experience-item">
+    <div class="timeSpan-container">
+        <span class="timeSpan">Dec. 2022 - Jun. 2023</span>
+    </div>
+    <div class="eventSpan-container">
+        <span class="eventSpan">As a master student in SJTU for project FC+</span>
+    </div>
+</div>
