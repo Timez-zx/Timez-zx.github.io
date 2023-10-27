@@ -28,6 +28,9 @@
     padding-left: 1em;
     font-size: 16px;
     padding-right: 1em;
+    @include mobile {
+      font-size: 14px;
+    }
   }
   
   .author_stress {
@@ -40,6 +43,10 @@
     font-size: 15px;
     word-spacing: 3px;
     line-height: 24px;
+    @include mobile {
+      font-size: 13px;
+      word-spacing: 2px;
+    }
   }
   
   .pub_event {
@@ -47,6 +54,10 @@
     font-size: 15px;
     word-spacing: 3px;
     line-height: 24px;
+    @include mobile {
+      font-size: 13px;
+      word-spacing: 2px;
+    }
   }
   
   /* 定义出版物标题的样式 */
@@ -56,4 +67,15 @@
     line-height: 25px;
     word-spacing: 4px;
   }
-  
+
+  @media (max-width: 800px) {
+    .image-column {
+        display: none;  /* 隐藏图像列 */
+    }
+    
+    .text-column {
+        flex: 1;  /* 让文本列占满整个宽度 */
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  }
