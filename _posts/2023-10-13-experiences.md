@@ -12,7 +12,7 @@ title: Research experience (See <a href="files/cv.pdf">details</a>)
         <span class="timeSpan">Jul. 2023 - Present</span>
     </div>
     <div class="eventSpan-container">
-        <span class="eventSpan">As a visiting student in <a href="https://vincen.tl">Prof. Vincent Liu</a> 's group mainly for project Beaver</span>
+        <span class="eventSpan">As a visiting student in <a href="https://vincen.tl">Prof. Vincent Liu</a> 's group mainly for project Beaver.</span>
     </div>
 </div>
 
@@ -21,6 +21,6 @@ title: Research experience (See <a href="files/cv.pdf">details</a>)
         <span class="timeSpan">Dec. 2022 - Jun. 2023</span>
     </div>
     <div class="eventSpan-container">
-        <span class="eventSpan">As a master student in SJTU for project FC+</span>
+        <span class="eventSpan">As a master student in SJTU for project FC+.</span>
     </div>
 </div>
