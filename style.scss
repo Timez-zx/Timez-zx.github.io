@@ -254,7 +254,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $primaryColor;
+      color: $sdarkGray;
     }
     &:hover, &:active {
       color: $black; // 使用次要颜色来指示悬停状态
