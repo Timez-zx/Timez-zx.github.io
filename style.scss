@@ -166,8 +166,6 @@ img {
 
   // background-color: write;
   position: relative;
-  left: 260px;
-  max-width: 900px;
   background: linear-gradient(to top, $softGray, white); 
 }
 
@@ -175,7 +173,6 @@ img {
   position: relative;
   padding: 10px 0;
   border-bottom: 0px solid $lightGray;
-  max-width: 900px;
 
 
   @include mobile {
