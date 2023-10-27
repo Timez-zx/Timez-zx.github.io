@@ -9,6 +9,7 @@
   /* 事件容器样式 */
   .event-container {
     display: inline-block;
+    flex-grow: 1;
   }
   
   .time {
@@ -28,12 +29,14 @@
     word-spacing: 3px;
     @include mobile {
       font-size: 13px;
-      line-height: 0.5;
+      line-height: 15px;
     }
   }
   
   /* 更新每个项目的样式 */
   .news-item {
+    display: flex;  /* 使用 flex 布局 */
+    align-items: flex-start; 
     text-align: left;  /* 左对齐 */
     padding-left: 1em;  /* 创建一个制表符空间 */
     margin-bottom: -8px;  /* 项目之间的间距 */
