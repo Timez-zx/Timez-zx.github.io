@@ -12,3 +12,11 @@ h4 {
     word-spacing: 3px;
     margin-bottom: 15px;
 }
+
+@include mobile {
+    h4 {
+      font-size: 14px; // 减小h4字体大小
+      margin-bottom: 10px; // 调整外边距
+    }
+  }
+  

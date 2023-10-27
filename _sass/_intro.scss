@@ -42,4 +42,24 @@
     typing 5s steps(30, start) infinite,
     blink .75s step-end infinite;
 }
+
+@include mobile {
+  .introduction-section {
+    padding: 30px 5px; // 增加内边距
+    margin: 20px 0; // 调整外边距
+  }
+
+  .intro-background {
+    font-size: 100px; // 减小背景字体大小
+    opacity: 0.1; // 调整透明度
+    top: 5px; // 调整位置
+    max-width: 100%; // 调整最大宽度
+  }
+
+  .site-description {
+    font-size: 20px; // 减小描述字体大小
+    max-width: 18em; // 调整最大宽度
+  }
+}
+
   

@@ -28,3 +28,25 @@
     padding-left: 1em;  /* 创建一个制表符空间 */
     margin-bottom: -8px;  /* 项目之间的间距 */
   }
+
+  @include mobile {
+    .timeSpan-container {
+      width: 100%;  // 在移动设备上，使其占满宽度
+      text-align: center; // 居中显示时间
+    }
+  
+    .eventSpan-container {
+      display: block; // 在较小的屏幕上，将事件容器变为块级元素
+      margin-top: 10px; // 增加上边距
+    }
+  
+    .eventSpan {
+      padding-left: 1em;  // 减少左边距
+    }
+  
+    .experience-item {
+      padding-left: 0.5em;  // 减少左边距
+      margin-bottom: 5px;  // 调整项目之间的间距
+    }
+  }
+  
