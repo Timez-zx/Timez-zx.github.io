@@ -1,6 +1,9 @@
 .time-container {
     width: 80px;  /* 调整宽度以适应你的需要 */
     display: inline-block;
+    @include mobile {
+      width: 40px;
+    }
   }
   
   /* 事件容器样式 */
@@ -12,6 +15,9 @@
     font-style: italic;
     color: $smallGray;
     font-size: 16px;
+    @include mobile {
+      font-size: 13px;
+    }
   }
   
   /* 更新事件的样式 */
@@ -20,6 +26,9 @@
     font-weight: 200;
     font-size: 16px;
     word-spacing: 3px;
+    @include mobile {
+      font-size: 13px;
+    }
   }
   
   /* 更新每个项目的样式 */
