@@ -13,7 +13,7 @@
     box-sizing: border-box; /* 确保边框包括在总宽度和高度中 */
     margin-left: auto;
     display: flex;  /* 将image-column设置为flex容器 */
-    justify-content: flex-end;  /* 使图像靠右对齐 */
+    justify-content: center;  /* 使图像靠右对齐 */
   }
   
   .image-column img {
