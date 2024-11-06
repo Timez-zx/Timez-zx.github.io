@@ -9,6 +9,20 @@ title: Publication
 
 <div class="publish-item">
   <div class="text-column">
+    <div class="publish-title">Beaver: Practical Partial Snapshots for Distributed Cloud Services</div>
+    <div class="author">
+      <a href="https://liangchengyu.com/">Liangcheng Yu</a>, 
+      <span class="author_stress">Xiao Zhang, Haoran Zhang, John Sonchack, Dan Ports, Vincent Liu</span>
+    </div>
+    <div class="pub_event">Santa Clara, CA, USA, Jul. 2024</div>
+  </div>
+  <div class="image-column">
+    <img src="{{ site.baseurl }}/files/images/beaver.png" alt="Description" style="width: 220px; height: auto;">
+  </div>
+</div>
+
+<div class="publish-item">
+  <div class="text-column">
     <div class="publish-title">FC+ (Flattened Clos Plus): Near-optimal Deadlock-free Expander Data Center Networks</div>
     <div class="author"><span class="author_stress">Xiao Zhang</span>, <a href="https://caopeirui.github.io">Peirui Cao</a>, Yongxi Lyu, Qizhou Zhang, <a href="https://jhc.sjtu.edu.cn/~shizhenzhao/">Shizhen Zhao</a>, Xinbing Wang, Chenghu Zhou</div>
     <div class="pub_event">ISPA, Wuhan, China, Dec. 2023</div>
